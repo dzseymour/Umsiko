@@ -1,1 +1,35 @@
-<h1>Umsiko</h1>
+<div class="information_links">
+ <table id = "contact">
+  <tr>
+    <th><%=@Name %></th>
+    <th><%=@Email %></th>
+    <th><a href="#IDHome"><%=@Home %></a></th>
+    <th><a href="#IDAboutUs"><%=@AboutUs %></a></th>
+    <th><a href="#IDServices"><%=@Services %></a></th>
+    <th><a href="#IDClients"><%=@Clients %></a></th>
+  </tr>
+ </table> 
+</div>
+
+ 
+
+<div class="Home">
+   <h2 id="IDHome"> <%= @Title %></h2>
+</div>  
+
+<div class="AboutUs">
+   <h2 id="IDAboutUs"> <%= @AboutUs %></h2>
+</div>  
+
+<div class="Services">
+   <h2 id="IDServices"> <%= @Services %></h2>
+</div>  
+
+<div class="Clients">
+   <h2 id="IDClients"> <%= @Clients %></h2>
+</div> 
+
+<p> <%=@Signature %></p> 
+
+
+
