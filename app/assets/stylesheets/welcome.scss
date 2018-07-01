@@ -1,3 +1,24 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Shadows+Into+Light+Two" rel="stylesheet');
+
+
+body {
+    background-color: #000000;
+    padding: 20px;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: white;
+    font-size: 8;
+
+}
+
+.information_links {
+	background-color: #000000;
+    padding: 20px;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-style: normal;
+    color: white;
+    font-size: 8;
+}
